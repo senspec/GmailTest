@@ -20,7 +20,9 @@ public class GmailTesting {
 //			
 			//driver = new FirefoxDriver(ffProfile);
 			driver.get("http://demo.guru99.com/selenium/guru99home/");  
-			System.out.println("Senthil Successful Loggged in and Logout");
+			System.out.println("Senthil Successful Loggged in");
+			System.out.println("Senthil not logged");
+			
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
 		}	
