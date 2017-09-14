@@ -22,6 +22,7 @@ public class GmailTesting {
 			driver.get("http://demo.guru99.com/selenium/guru99home/");  
 			System.out.println("Senthil Successful Loggged in");
 			System.out.println("Senthil not logged");
+			System.out.println("Senthil again logged in");
 			
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
