@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47862" started-at="2017-09-14T03:58:13Z" finished-at="2017-09-14T03:59:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47862" started-at="2017-09-14T03:58:13Z" finished-at="2017-09-14T03:59:01Z">
+      <class name="sample.GmailTesting">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:sample.GmailTesting@1e67b872]" name="beforeTest" is-config="true" duration-ms="22597" started-at="2017-09-14T09:28:13Z" finished-at="2017-09-14T09:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:sample.GmailTesting@1e67b872]" name="testEasy" duration-ms="25216" started-at="2017-09-14T09:28:36Z" finished-at="2017-09-14T09:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:sample.GmailTesting@1e67b872]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-09-14T09:29:01Z" finished-at="2017-09-14T09:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- sample.GmailTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

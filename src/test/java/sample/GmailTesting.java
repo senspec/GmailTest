@@ -23,6 +23,7 @@ public class GmailTesting {
 			System.out.println("Senthil Successful Loggged in");
 			System.out.println("Senthil not logged");
 			System.out.println("Senthil again logged in");
+			System.out.println("Senthil How are you???");
 			
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
